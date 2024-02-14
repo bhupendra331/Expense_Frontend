@@ -1,0 +1,116 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+}
+.table{
+  display: flex;
+  align-items: center;
+  margin: 1rem auto;
+  max-width: 400px;
+  gap: 2px;
+  transition: transform 0.5s;
+}
+.table:hover{
+  transform: scale(1.2);
+}
+
+.extable{
+  border: 1px solid black;
+  
+  margin: 1rem auto;
+  padding: 1rem ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: 0 3px 9px black;
+  max-width: 400px;
+  transition: transform 0.5s;
+  flex-grow: 1;
+}
+.extable:hover{
+  transform: scale(1.1);
+}
+.extable.positive{
+  border-right:solid 10px rgb(8, 175, 58);
+}
+.extable.negative{
+  border-right:solid 10px  rgb(175, 33, 8);
+}
+.balance{
+ border: 0px;
+padding-left: 45%;
+font-size: 30px;
+}
+.incomeexpense{
+  border: 1px solid black; 
+  margin: 1rem auto;
+  padding: 1rem ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 3px 9px black;
+  max-width: 500px;
+  height: 70px;
+  font-size: 20px;
+
+}
+.Income{
+  color: green;
+}
+.Expense{
+  color: red;
+}
+
+.block{
+  width: 3px;
+  background-color: rgb(3, 3, 3);
+  border-radius: 0px;
+  height: 30px;
+}
+.add{
+  border: 1px solid black; 
+  margin: 1rem auto;
+  padding: 1rem ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 3px 9px black;
+  max-width: 500px;
+  height: 70px;
+  font-size: 20px;
+
+}
+.btn{
+  background-color: rgb(82, 173, 226);
+   
+   transition: transform 0.5s;
+  border-radius: 10px;
+
+}
+.btn:hover{
+  background-color:rgb(145, 82, 226);
+  transform: rotate(45deg);
+  /* transform:scaleX(1.1) */
+}
+.form-control{
+  transition: transform 0.5s;
+}
+.form-control:hover{
+  transform: scale(1.1);
+  font-weight: 300;
+}
+.error{
+  color: red;
+  font-size: 12px;
+  margin: 0 0 0.75rem 0;
+}
+.errorA{
+  color: red;
+  font-size: 12px;
+  margin: 0 0 0.75rem 0;
+}
